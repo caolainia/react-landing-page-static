@@ -67,6 +67,15 @@ function Navbar() {
                   Products
                 </Link>
               </li>
+              <li className='nav-item'>
+                <Link
+                  to='pricing' spy={true} smooth={true}
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Pricing
+                </Link>
+              </li>
               <li className='nav-btn'>
                 {button ? (
                   <Link to='footer' spy={true} smooth={true}
@@ -75,11 +84,10 @@ function Navbar() {
                   </Link>
                 ) : (
                   <Link to='footer' spy={true} smooth={true} 
-                  className='btn-link'>
+                  className='btn-link' onClick={closeMobileMenu}>
                     <Button
                       buttonStyle='btn--outline'
                       buttonSize='btn--mobile'
-                      onClick={closeMobileMenu}
                     >
                       SIGN UP
                     </Button>

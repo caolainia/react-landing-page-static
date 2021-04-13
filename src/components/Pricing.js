@@ -10,7 +10,7 @@ import { Link } from 'react-scroll';
 function Pricing() {
   return (
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
-      <div className='pricing__section'>
+      <div className='pricing__section' id="pricing">
         <div className='pricing__wrapper'>
           <h1 className='pricing__heading'>Pricing</h1>
           <div className='pricing__container'>
@@ -24,11 +24,11 @@ function Pricing() {
                 <h4>$8.99</h4>
                 <p>per month</p>
                 <ul className='pricing__container-features'>
-                  <li>100 Transactions</li>
-                  <li>2% Cash Back</li>
-                  <li>$10,000 Limit</li>
+                  <li>300 mins consultation</li>
+                  <li>100 hours free services</li>
+                  <li>5% discount</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
+                <Button className="pricing__button" buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan
                 </Button>
               </div>
@@ -40,14 +40,14 @@ function Pricing() {
                   <BsXDiamondFill />
                 </div>
                 <h3>Gold</h3>
-                <h4>$29.99</h4>
+                <h4>$39.99</h4>
                 <p>per month</p>
                 <ul className='pricing__container-features'>
-                  <li>1000 Transactions</li>
-                  <li>3.5% Cash Back</li>
-                  <li>$100,000 Limit</li>
+                  <li>600 mins consultation</li>
+                  <li>150 hours free services</li>
+                  <li>10% discount</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='blue'>
+                <Button className="pricing__button" buttonSize='btn--wide' buttonColor='blue'>
                   Choose Plan
                 </Button>
               </div>
@@ -62,11 +62,11 @@ function Pricing() {
                 <h4>$99.99</h4>
                 <p>per month</p>
                 <ul className='pricing__container-features'>
-                  <li>Unlimited Transactions</li>
-                  <li>5% Cash Back</li>
-                  <li>Unlimited Spending</li>
+                  <li>1200 mins consultation</li>
+                  <li>300 hours free services</li>
+                  <li>20% discount</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
+                <Button className="pricing__button" buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan
                 </Button>
               </div>

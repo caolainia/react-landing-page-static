@@ -1,5 +1,6 @@
 .pricing__section {
-  padding: 100px 0 160px;
+  min-height: 100vh;
+  padding: 4rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,6 +87,11 @@
   align-items: center;
 }
 
+.pricing__button{
+  text-align: center;
+  padding: 0 !important;
+}
+
 .icon {
   margin: 24px 0;
 }
@@ -97,10 +103,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: auto;
   }
 
   .pricing__container-card {
     width: 90%;
+
   }
 
   .pricing__wrapper {
