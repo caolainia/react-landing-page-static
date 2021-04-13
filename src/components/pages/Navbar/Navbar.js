@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '../../Button';
 import { Link } from 'react-scroll';
 import './Navbar.css';
-import { MdFingerprint } from 'react-icons/md';
+import { GiCircularSawblade } from 'react-icons/gi';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
@@ -36,7 +36,7 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link className='navbar-logo' onClick={closeMobileMenu}>
-              <MdFingerprint className='navbar-icon' />
+              <GiCircularSawblade className='navbar-icon' />
               SURGEO
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -51,7 +51,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='services' spy={true} smooth={true}
+                  to='systems' spy={true} smooth={true}
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -60,7 +60,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='products' spy={true} smooth={true}
+                  to='data' spy={true} smooth={true}
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >

@@ -3,35 +3,67 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Your dream comes true here',
+  topLine: 'Your ideas come true here',
   headline: 'We build successful',
   headlineList: ['businesses.', 'brands.', 'products.'], 
   description:
     'Start by becoming a member and dropping a quick query to us. One of our technical officers will get in touch with you shortly',
   buttonLabel: 'Get Started',
   imgStart: '',
-  img: 'images/svg-1.svg',
+  img: 'images/1.svg',
   alt: 'Credit Card'
 };
 
 export const homeObjTwo = {
-  id: "services",
+  id: "systems",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Lifetime maintenance',
-  headline: 'Your project will exist forever',
-  headlineList: [],
+  topLine: 'Tailored System',
+  headline: 'We help you tailor IT systems',
+  headlineList: [], 
   description:
-    'We have your project covered all the time. All records will be linked to our secured blockchains',
-  buttonLabel: 'Learn More',
-  imgStart: '',
-  img: 'images/svg-5.svg',
+    'Security diagnostics, System design and development, and Database optimisation. We are the experts!',
+  buttonLabel: 'Expolore More',
+  imgStart: 'start',
+  img: 'images/2.svg',
   alt: 'Vault'
 };
 
 export const homeObjThree = {
-  id: "unset0",
+  id: "systems-onboard",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Lifetime maintenance',
+  headline: 'Your project will exist forever',
+  headlineList: [],
+  description:
+    'We have your project covered all the time. All records will be securely linked to our secured blockchains',
+  buttonLabel: 'Start Now',
+  imgStart: '',
+  img: 'images/3.svg',
+  alt: 'Vault'
+};
+
+export const homeObjFour = {
+  id: "data",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'DATA SOlUTION',
+  headline: 'Store, analyse and utilise data',
+  headlineList: [], 
+  description:
+    'Your data are more precious than you think. We are here to help you identify the potentials.',
+  buttonLabel: 'Learn More',
+  imgStart: 'start',
+  img: 'images/4.svg',
+  alt: 'Vault'
+};
+
+export const homeObjFive = {
+  id: "data-onboard",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -42,22 +74,6 @@ export const homeObjThree = {
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: 'Start Now',
   imgStart: 'start',
-  img: 'images/svg-7.svg',
-  alt: 'Vault'
-};
-
-export const homeObjFour = {
-  id: "products",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'DATA ANALYTICS',
-  headline: 'Every transaction is stored on our secure cloud database',
-  headlineList: [], 
-  description:
-    'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
-  imgStart: 'start',
-  img: 'images/svg-8.svg',
+  img: 'images/5.svg',
   alt: 'Vault'
 };

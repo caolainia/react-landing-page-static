@@ -9,7 +9,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+import { GiCircularSawblade } from 'react-icons/gi';
 
 function Footer() {
   return (
@@ -72,7 +72,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
+              <GiCircularSawblade className='navbar-icon' />
               SURGEO
             </Link>
           </div>
