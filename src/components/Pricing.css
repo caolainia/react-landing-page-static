@@ -105,25 +105,21 @@
     width: 100%;
     height: auto;
   }
-
   .pricing__container-card {
     width: 90%;
 
   }
-
   .pricing__wrapper {
     margin: 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .pricing__container-card:nth-child(2) {
     transform: scale(1);
     background: #242424;
     margin: 24px;
   }
-
   .pricing__container-card:hover {
     transform: none;
   }
