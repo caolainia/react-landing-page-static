@@ -73,7 +73,7 @@ export const homeObjFive = {
   description:
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: 'Start Now',
-  imgStart: 'start',
+  imgStart: '',
   img: 'images/5.svg',
   alt: 'Vault'
 };
